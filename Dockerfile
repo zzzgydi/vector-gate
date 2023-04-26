@@ -8,4 +8,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["uvicorn", "main:app", "--workers", "2", "--host", "0.0.0.0", "--port" ,"3000"]
+CMD ["uvicorn", "main:app", "--workers", "2", "--host", "0.0.0.0", "--port" ,"${PORT:-5000}"]
