@@ -1,0 +1,10 @@
+.DS_Store
+.env
+old/
+logs/
+assets/faq-model/
+train/faq-data/
+train/faq-model/
+dist/
+__pycache__/
+*.tar.gz
